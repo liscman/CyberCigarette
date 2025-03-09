@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_nav_theory"
+        android:icon="@drawable/ic_book"
+        android:title="@string/theory"  />
+    <item
+        android:id="@+id/bottom_nav_diy"
+        android:icon="@drawable/ic_mixing"
+        android:title="@string/liquid_diy"  />
+    <item
+        android:id="@+id/bottom_nav_mixing"
+        android:icon="@drawable/ic_conical_flask"
+        android:title="@string/mixing"  />
+    <item
+        android:id="@+id/bottom_nav_absorption"
+        android:icon="@drawable/ic_lungs"
+        android:title="@string/nicotine_absorption"  />
+    <item
+        android:id="@+id/bottom_nav_coil"
+        android:icon="@drawable/ic_bolt"
+        android:title="@string/coil_selection"  />
+</menu>

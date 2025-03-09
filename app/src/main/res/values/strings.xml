@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">CyberCigarette</string>
+    <string name="theory">Theory</string>
+    <string name="liquid_diy">Liquid DIY</string>
+    <string name="mixing">Mixing</string>
+    <string name="nicotine_absorption">Nicotine Absorption</string>
+    <string name="coil_selection">Coil Selection</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation">Navigation</string>
 </resources>
