@@ -10,7 +10,7 @@
 
     <!-- TODO NavigationView button -->
     <ImageButton
-        android:visibility="gone"
+        android:visibility="invisible"
         android:id="@+id/main_button_menu"
         android:layout_width="48dp"
         android:layout_height="48dp"
@@ -24,7 +24,8 @@
         android:id="@+id/main_viewpager"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:layout_marginHorizontal="30dp"/>
 
     <!-- Bottom Navigation for View Pager -->
     <com.google.android.material.bottomnavigation.BottomNavigationView
