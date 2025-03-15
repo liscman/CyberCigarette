@@ -41,6 +41,10 @@ android {
 dependencies {
     implementation (libs.mpandroidchart)
 
+    implementation (libs.androidx.activity.ktx.v191)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx.v284)
+    implementation(libs.androidx.fragment.ktx.v183)
+    implementation(libs.androidx.lifecycle.extensions)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

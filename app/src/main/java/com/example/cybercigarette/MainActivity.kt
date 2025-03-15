@@ -2,6 +2,7 @@ package com.example.cybercigarette
 
 import android.os.Bundle
 import android.view.MenuItem
+import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
 import com.example.cybercigarette.adapters.MainPagerAdapter
@@ -11,6 +12,8 @@ import com.google.android.material.navigation.NavigationBarView
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private lateinit var pagerAdapter: MainPagerAdapter
+
+    private val viewModel: MainViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -2,7 +2,7 @@ package com.example.cybercigarette
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
-import java.lang.Exception
+import com.example.cybercigarette.backend.mixing.MixingBackend
 
 /**
  * Main [ViewModel] in Project.
@@ -21,4 +21,7 @@ class MainViewModel : ViewModel() {
         }
         return true
     }
+
+    //mixing
+    val mixing = MixingBackend()
 }
